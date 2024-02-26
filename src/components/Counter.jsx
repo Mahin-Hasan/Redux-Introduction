@@ -9,7 +9,7 @@ const Counter = () => {
 
     // const count = useSelector((state) => state.counter.count); //old style
     const { count } = useSelector((state) => state.counter); //advanced style
-    const dispatch = useDispatch();
+    const dispatch = useDispatch(); // for user interaction
 
 
     console.log(count);
